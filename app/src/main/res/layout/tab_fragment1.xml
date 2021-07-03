@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabFragment1">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/good_characters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f9cbcb">
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp">-->
+
+<!--            <RelativeLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/characterImage"-->
+<!--                    android:adjustViewBounds="true"-->
+<!--                    android:transitionName="slide" />-->
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:id="@+id/name"-->
+<!--                    android:text="@string/placeholder"-->
+<!--                    android:padding="8dp"-->
+<!--                    style="@style/TextAppearance.AppCompat.Headline"-->
+<!--                    android:layout_alignBottom="@id/characterImage"-->
+<!--                    android:theme="@style/ThemeOverlay.AppCompat.Dark" />-->
+<!--            </RelativeLayout>-->
+<!--        </androidx.cardview.widget.CardView>-->
+    </androidx.recyclerview.widget.RecyclerView>
+
+</FrameLayout>

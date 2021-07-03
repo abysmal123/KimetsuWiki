@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/characterImage"
+            android:adjustViewBounds="true"
+            android:transitionName="slide" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="@string/placeholder"
+            android:padding="8dp"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:layout_alignBottom="@id/characterImage"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+        <TextView
+            android:id="@+id/info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/characterImage"
+            android:padding="8dp"
+            android:text="@string/info_title"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/info_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_title"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/relation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/info_content"
+            android:padding="8dp"
+            android:text="@string/relation_title"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/relation_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relation_title"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fight_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relation_content"
+            android:padding="8dp"
+            android:text="@string/fight_title"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/fight_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fight_title"
+            android:padding="8dp"
+            android:text="@string/placeholder"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+</ScrollView>
